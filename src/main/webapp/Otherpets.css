@@ -1,0 +1,192 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    font-family: arial;
+    background: black;
+  }
+
+ .allcards{
+    margin: 3%;
+ }
+  .card {
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 40px rgb(0, 128, 192);
+    border-radius: 5px;
+    margin: 2%;
+    background: white;
+  }
+
+  .image{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+
+  }
+
+  .title {
+
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .des {
+    padding: 3px;
+    text-align: center;
+    color: rgb(18, 17, 17);
+    padding-top: 5px;
+    font-weight: 800;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .btn {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 800;
+  }
+
+  .btnremove {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: rgb(128, 128, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 500;
+  }
+
+  .btnpur {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 800;
+  }
+
+  .btn:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .btnremove:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .btnpur:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .pet {
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    padding-top: 50px;
+
+  }
+
+  .cartheader {
+    width: auto;
+    padding-top: 50px;
+background-image: linear-gradient(#dd5e89 , #f7bb97);
+    background-size: cover;
+    
+  }
+
+  .cartitems {
+    padding-left: 460px;
+    padding-top: 25px;
+    gap: 200px;
+   
+  }
+
+  .pricecart {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .totalcart {
+    display: flex;
+    padding-bottom: 30px;
+    
+  }
+
+  .quant {
+    margin-left: 170px;
+    margin-top: -10px;
+  }
+
+  .quant2 {
+    margin-left: 750px;
+    margin-top: 60px;
+  }
+
+  .totalsum {
+    padding-top: 100px;
+    margin-left: -270px;
+  }
+  .headitems{
+    margin-left: 480px;
+    display: flex;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 240px;
+  }
+  .carttitle{
+    padding-left: 20px;
+  }
+  .pet-specs {
+    display: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .btndes{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: 800;
+  }
+  .btndes:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+  .carthe{
+    padding-left: 30px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
